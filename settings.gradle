@@ -1,0 +1,1 @@
+include ':app', ':common_module', ':MainModule', ':HomeModule', ':ShopModule', ':MyModule', ':UpMarqueeView'

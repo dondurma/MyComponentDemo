@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <com.smile.ch.common.view.RoundImageView
+            android:id="@+id/iv_shop_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_shop_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="文化创意胆小的怪物文化创意胆小的怪物文化创意胆小的怪物" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:gravity="bottom">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/paymoney" />
+
+                <TextView
+                    android:id="@+id/tv_shop_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#f00"
+                    tools:text="166" />
+
+                <TextView
+                    android:id="@+id/tv_shop_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    tools:text="88人已付款" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gray" />
+
+            <ImageView
+                android:id="@+id/iv_shop_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:scaleType="matrix"
+                android:src="@mipmap/more"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

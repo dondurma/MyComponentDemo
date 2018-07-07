@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\MyComponentDemo-master\ComponentDemo.iml" filepath="E:\MyComponentDemo-master\ComponentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeModule/HomeModule.iml" filepath="$PROJECT_DIR$/HomeModule/HomeModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainModule/MainModule.iml" filepath="$PROJECT_DIR$/MainModule/MainModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyComponentDemo-master.iml" filepath="$PROJECT_DIR$/MyComponentDemo-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyModule/MyModule.iml" filepath="$PROJECT_DIR$/MyModule/MyModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShopModule/ShopModule.iml" filepath="$PROJECT_DIR$/ShopModule/ShopModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpMarqueeView/UpMarqueeView.iml" filepath="$PROJECT_DIR$/UpMarqueeView/UpMarqueeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_module/common_module.iml" filepath="$PROJECT_DIR$/common_module/common_module.iml" />
+    </modules>
+  </component>
+</project>
