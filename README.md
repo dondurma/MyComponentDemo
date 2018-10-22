@@ -99,6 +99,14 @@ ext {
     }
 
 ```
+7. 在gradle.properties文件中添加
+
+
+```
+
+isModule = false
+
+```
 
 
 
